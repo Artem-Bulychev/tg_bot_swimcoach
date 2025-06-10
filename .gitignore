@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+.env
+dist/ # Если компилируете TypeScript в папку dist
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
