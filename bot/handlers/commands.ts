@@ -2,8 +2,6 @@ import TelegramBot from 'node-telegram-bot-api'
 import User from '../../backend/models/User'
 
 export default function setupCommands(bot: TelegramBot) {
-    bot.onText(/\/start/, async (msg) => {
-    })
     bot.onText(/\/profile/, async (msg) => {
         const chatId = msg.chat.id
         try {
